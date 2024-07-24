@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #f0f0f0;
+}
+
+.bootstrapHeader {
+    background-color: #000;
+    color: #f0f0f0;
+    padding: 20px 0;
+}
+
+.profile-info h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.profile-info h2 {
+    margin: 0;
+    font-size: 18px;
+    color: #A6A6A6;
+}
+
+.profile-info a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #f0f0f0;
+    margin-bottom: 10px;
+}
+
+.profile-info img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.social-links a {
+    display: block;
+    margin: 5px 0;
+    text-decoration: none;
+    color: #f0f0f0;
+}
+
+.fa:hover {
+    opacity: 0.7;
+    color: #A6A6A6;
+  }
+
+.bootstrapNavBar {
+    background-color: #000;
+    color: #f0f0f0;
+    padding: 10px 0;
+}
+
+.bootstrapNavBar a {
+    text-decoration: none;
+    color: #f0f0f0;
+}
+
+.bootstrapNavBar button {
+    background-image: linear-gradient(to bottom,#F2F2F2,#A6A6A6,#595959,#262626,#0D0D0D);
+    color: #f0f0f0;
+    border-radius: 5px;
+}
+
+.bootstrapAboutMe, .bootstrapWorkExperience, .bootstrapProjects {
+    background-color: #000;
+    color: #f0f0f0;
+    border-radius: 0px;
+    padding: 20px;
+}
+
+.bootstrapProjects img {
+    border: #f0f0f0, 1px, solid;
+    width: 70%;
+    height: auto;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.work-experience ul {
+    list-style: none;
+    padding: 0;
+}
+
+.work-experience ul li {
+    position: relative;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.work-experience ul li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: #f0f0f0;
+}
+
+.bootstrapFooter {
+    background-color: #000;
+    color: #f0f0f0;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .bootstrapHeader .row {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .social-links a {
+        margin: 5px;
+    }
+
+    .bootstrapNavBar nav button {
+        margin: 10px;
+    }
+
+    .bootstrapProjects img {
+        margin: 10px;
+    }
+}
